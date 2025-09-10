@@ -1,0 +1,11 @@
+name: github.com/deregtd/testmodule
+type: templates
+arguments:
+  # none
+postRunCommand:
+  - name: mise install
+    command: once mise install
+  - name: chmod
+    command: chmod +x ./test.sh
+  - name: test
+    command: ./test.sh

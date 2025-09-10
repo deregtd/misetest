@@ -1,0 +1,6 @@
+# yaml-language-server: $schema=https://stencil.rgst.io/static/stencil.jsonschema.json
+name: testrepo
+modules:
+- name: github.com/deregtd/testmodule
+replacements:
+  github.com/deregtd/testmodule: ./stencilmodule
