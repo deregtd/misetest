@@ -10,7 +10,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
     - name: Install Tool Versions
-      uses: jdx/mise-action@latest
+      uses: jdx/mise-action@v3
       with:
         experimental: true
     - name: test
