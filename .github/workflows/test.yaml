@@ -5,6 +5,7 @@ on:
       
 jobs:
   test:
+    runs-on: ubuntu-latest
     steps:
     - name: Install Tool Versions
       uses: jdx/mise-action@13abe502c30c1559a5c37dff303831bab82c9402
