@@ -13,4 +13,6 @@ jobs:
         experimental: true
     - name: test
       run: |
+        ls -la
+        pwd
         ./test.sh
