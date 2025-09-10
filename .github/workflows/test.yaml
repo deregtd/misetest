@@ -1,0 +1,15 @@
+name: Mise Tester
+
+on:
+  pull_request:
+      
+jobs:
+  test:
+    steps:
+    - name: Install Tool Versions
+      uses: jdx/mise-action@13abe502c30c1559a5c37dff303831bab82c9402
+      with:
+        experimental: true
+    - name: test
+      run: |
+        ./test.sh
