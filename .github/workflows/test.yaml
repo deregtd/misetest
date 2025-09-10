@@ -28,6 +28,6 @@ jobs:
       with:
         github-token: ${{ github.token }}
         version: 'latest'
-    # - name: Run stencil
-    #   shell: bash
-    #   run: stencil
+    - name: Run stencil
+      shell: bash
+      run: stencil
