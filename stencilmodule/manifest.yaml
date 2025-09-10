@@ -4,7 +4,7 @@ arguments:
   # none
 postRunCommand:
   - name: mise install
-    command: mise install
+    command: once mise install
   - name: chmod
     command: chmod +x ./test.sh
   - name: test
