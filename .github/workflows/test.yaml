@@ -13,6 +13,7 @@ jobs:
       uses: jdx/mise-action@v3
       with:
         experimental: true
+        reshim: true
     - name: test
       run: |
         ls -la
