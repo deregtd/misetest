@@ -19,4 +19,5 @@ jobs:
     - name: Install Stencil
       uses: rgst-io/stencil-action@34abb7be7ca3847f233bd9c38f1da71b30556c35
       with:
+        github-token: ${{ github.token }}
         version: 'latest'
